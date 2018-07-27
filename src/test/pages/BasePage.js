@@ -2,7 +2,7 @@ var BasePage = function(){
 
     this.navigateToURL = function(){
 
-        browser.driver.get("https://snap-latimes-stage.tribdev.com/login");
+        browser.driver.get(url);
 
     };
 

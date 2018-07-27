@@ -1,0 +1,43 @@
+{
+
+  "testsiteurl":"https://snap-nydailynews-stage.tribdev.com/",
+
+  "locators":{
+
+    "homepage":{
+
+      "buttontext":"Login",
+      "ngclickbutton":"manager()"
+
+
+    },
+    "addcustomerdetailspage":{
+
+      "addcustomerbutton":"addCust()",
+      "fName":"fName",
+      "lName":"lName",
+      "pCode":"postCd",
+      "addcustomer":".btn.btn-default",
+      "openAccount":"addCust()",
+
+      "testdata":{
+
+
+        "Username":"snap-test-auto-normal-ct-xebia",
+        "Password":"XeBit@20"
+       
+      }
+
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+}

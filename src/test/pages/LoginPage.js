@@ -1,13 +1,12 @@
 var LoginPage=function () {
 
-    this.enterDetails = function () {
-        browser.driver.findElement(by.xpath('//input[@name="username"]')).sendKeys('sgarg');
+    this.credentials = function () {
 
-        browser.driver.findElement(by.xpath('//input[@name="password"]')).sendKeys('Tribune!1');
-
-        browser.driver.findElement(by.xpath('//button[@class="btn meta-btn"]')).click();
+        element(by.cssSelector("[name$=me]")).sendKeys('snap-test-auto-normal-ct-xebia');
+        element(by.cssSelector("[name$=rd]")).sendKeys('Tribune!1');
+         element(by.cssSelector("//button[class='btn meta-btn']")).click();
     };
 
 };
 
-module.exports = new LoginPage();
+module.exports = new LoginPage();;
